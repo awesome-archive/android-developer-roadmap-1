@@ -9,6 +9,8 @@
 </p>
 
 ### Note: All the resources to learn all of the above in the roadmap will be provided on [MindOrks Website](https://mindorks.com)
+### All the best tutorials published by MindOrks. [Check here](https://mindorks.com/android-tutorial)
+### Watch the video format. [Check here](https://www.youtube.com/watch?v=kKNgeeL3YOE)
 
 ## Roadmap to learn Android App Development
 * Programming
@@ -146,6 +148,9 @@
 
 
 ## [MindOrks](https://mindorks.com)
+
+
+### Learn to build a ride-sharing Android app like Uber, Lyft - [Check here](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
