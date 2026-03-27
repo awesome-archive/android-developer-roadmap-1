@@ -1,14 +1,50 @@
-# Android Developer Roadmap - [MindOrks](https://mindorks.com)
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
+<p align="center">
+<img alt="Android Developer Roadmap" src="https://raw.githubusercontent.com/amitshekhariitbhu/android-developer-roadmap/master/assets/android-developer-roadmap.png">
+</p>
+
+# Android Developer Roadmap
 
 > A complete roadmap to learn Android App Development. This roadmap will help you in becoming a complete Android Developer.
 
-<p align="center">
-<img alt="Android Developer Roadmap" src="https://raw.githubusercontent.com/MindorksOpenSource/android-developer-roadmap/master/images/android_developer_roadmap.png">
-</p>
+### Note: All the resources to learn all of the concepts in the roadmap will be provided on:
+* [Outcome School Blog](https://outcomeschool.com/blog)
+* [YouTube Channel by Amit Shekhar](https://www.youtube.com/@amitshekhar)
 
-### Note: All the resources to learn all of the above in the roadmap will be provided on [MindOrks Website](https://mindorks.com)
+## About me
+
+Hi, I am Amit Shekhar, Founder @ [Outcome School](https://outcomeschool.com) • IIT 2010-14 • I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+
+### Follow Amit Shekhar
+
+- [X/Twitter](https://twitter.com/amitiitbhu)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
+
+### Follow Outcome School
+
+- [YouTube](https://youtube.com/@OutcomeSchool)
+- [X/Twitter](https://x.com/outcome_school)
+- [LinkedIn](https://www.linkedin.com/company/outcomeschool)
+- [GitHub](http://github.com/OutcomeSchool)
+
+## I teach at Outcome School
+
+- AI and Machine Learning
+- Android
+
+Join Outcome School and get a high-paying tech job: [Outcome School](https://outcomeschool.com)
+
+## Live session on "Android Developer Interview Preparation for Product-based Companies"
+
+I conducted a live session on "Android Developer Interview Preparation for Product-based Companies"
+
+Interacted with over **500 Android Developers**.
+
+Guided, motivated, and inspired them to aim higher and achieve more.
+
+**Recording Link**: https://drive.google.com/file/d/1VWW3l_itH6vYbNYzNer6XW5_x0jzOF4O/view?usp=sharing
+
+**Document Link**: https://docs.google.com/document/d/14UdD7Gd1j3no583ALx2t2Ggt3G_CECYhenLE-m-bkzA/edit?usp=sharing
 
 ## Roadmap to learn Android App Development
 * Programming
@@ -17,9 +53,9 @@
 * Android Studio
    * Android Studio IDE Overview
    * Project Structure
-   	   * Java/Kotlin
-   	   * XML
-   	   * .gradle files
+       * Java/Kotlin
+       * XML
+       * .gradle files
 * Android Component
    * Activity
      * Activity Lifecycle
@@ -36,7 +72,7 @@
   * View
       * Button, ImageView, TextView, EditText etc
   * ViewGroup
-  	   * LinearLayout, RelativeLayout, FrameLayout, ConstraintLayout
+       * LinearLayout, RelativeLayout, FrameLayout, ConstraintLayout
 * Dynamic User Interface
    * RecyclerView
    * ViewPager
@@ -58,6 +94,7 @@
   * Toast & Snackbar
 * Storage
   * Shared Preferences
+  * DataStore
   * File Systems
   * Database
     * RoomDB
@@ -65,8 +102,12 @@
   * Gradle
   * Debug / Release Configuration
 * Threading 
-  * Threads
-  * Handler / Looper
+  * Thread
+  * Handler/Looper
+  * ThreadPoolExecutor
+  * RxJava
+  * Coroutines/Flow
+  * WorkManager
 * Debugging
   * Memory profiling
   * Logging
@@ -87,12 +128,38 @@
      * Retrofit
   * MultiThreading
      * RxJava
-     * Coroutines 
+     * Coroutines
+     * Kotlin Flow API
+* Coroutines - You can learn these topics here: [Master Kotlin Coroutines](https://outcomeschool.com/blog/kotlin-coroutines)
+  * coroutines
+  * suspend
+  * launch, async-await, withContext
+  * dispatchers
+  * scope, context, job
+  * lifecycleScope, viewModelScope, GlobalScope
+  * suspendCoroutine, suspendCancellableCoroutine
+  * coroutineScope, supervisorScope
+* Kotlin Flow API - You can learn these topics here: [Kotlin Flow API](https://outcomeschool.com/blog/flow-api-in-kotlin)
+  * Flow Builder, Operator, Collector
+  * flowOn, dispatchers
+  * Operators such as filter, map, zip, flatMapConcat, retry, debounce, distinctUntilChanged, flatMapLatest
+  * Terminal operators
+  * Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://outcomeschool.com/blog/cold-flow-vs-hot-flow)
+  * [StateFlow, SharedFlow](https://outcomeschool.com/blog/stateflow-and-sharedflow), callbackFlow, channelFlow
 * Data Format
   * JSON
      * GSON
   * Flat Buffer
   * Protocol Buffer
+* Networking
+  * GET/POST/DELETE/PUT/PATCH
+  * OkHttp, Interceptor
+  * Caching
+  * Retrofit with Coroutines/Flow
+  * Multipart request
+  * Read, Write Timeout
+  * OAuth 2.0 - Refresh and Access Token
+  * HTTP Status Codes
 * Android Jetpack
   * Foundation Components
      * AppCompat
@@ -120,13 +187,30 @@
      * Palette
      * Android TV
      * Android Wear
-* Architecture 
+* Compose
+     * State: remember, rememberSaveable, MutableState
+     * Recomposition
+     * State hoisting
+     * Side-effects
+     * Modifier
+     * Theme
+     * Layout, List
+     * Gestures, Animation
+     * CompositionLocal
+* Common Design Patterns and Architecture 
+     * Builder Pattern
+     * Singleton
+     * Dependency Injection
+     * Factory
+     * Observer
+     * Repository
      * MVVM
-     * MVI
      * MVP
+     * MVI
+     * Clean architecture
 * Unit Testing
-  	 * Local Unit Testing
-  	 * Instrumentation Testing
+     * Local Unit Testing
+     * Instrumentation Testing
 * Firebase
      * FCM
      * Crashlytics
@@ -144,16 +228,14 @@
      * Playstore
 * Keep Learning and Improving
 
-
-## [MindOrks](https://mindorks.com)
+## **Get High Paying Tech Job: [Outcome School](https://outcomeschool.com)**
 
 ### Found this project useful :heart:
 * Support by clicking the :star: button on the upper right of this page. :v:
 
-
 ### License
 ```
-   Copyright (C) 2019 MINDORKS NEXTGEN PRIVATE LIMITED
+   Copyright (C) 2024 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
